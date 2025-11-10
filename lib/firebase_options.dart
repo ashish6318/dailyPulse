@@ -41,46 +41,46 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCz9tCAbjHuWAlQeqanWvzLYeGF412QwoU',
-    appId: '1:930309965801:web:a20745c16ae9fd2fffad78',
-    messagingSenderId: '930309965801',
-    projectId: 'dailypulse-82f54',
-    authDomain: 'dailypulse-82f54.firebaseapp.com',
-    storageBucket: 'dailypulse-82f54.firebasestorage.app',
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCz9tCAbjHuWAlQeqanWvzLYeGF412QwoU',
-    appId: '1:930309965801:android:PLACEHOLDER',
-    messagingSenderId: '930309965801',
-    projectId: 'dailypulse-82f54',
-    storageBucket: 'dailypulse-82f54.firebasestorage.app',
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCz9tCAbjHuWAlQeqanWvzLYeGF412QwoU',
-    appId: '1:930309965801:ios:PLACEHOLDER',
-    messagingSenderId: '930309965801',
-    projectId: 'dailypulse-82f54',
-    storageBucket: 'dailypulse-82f54.firebasestorage.app',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
     iosBundleId: 'com.example.flutterApplication1',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCz9tCAbjHuWAlQeqanWvzLYeGF412QwoU',
-    appId: '1:930309965801:ios:PLACEHOLDER',
-    messagingSenderId: '930309965801',
-    projectId: 'dailypulse-82f54',
-    storageBucket: 'dailypulse-82f54.firebasestorage.app',
+    apiKey: 'YOUR_MACOS_API_KEY',
+    appId: 'YOUR_MACOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
     iosBundleId: 'com.example.flutterApplication1',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCz9tCAbjHuWAlQeqanWvzLYeGF412QwoU',
-    appId: '1:930309965801:web:a20745c16ae9fd2fffad78',
-    messagingSenderId: '930309965801',
-    projectId: 'dailypulse-82f54',
-    authDomain: 'dailypulse-82f54.firebaseapp.com',
-    storageBucket: 'dailypulse-82f54.firebasestorage.app',
+    apiKey: 'YOUR_WINDOWS_API_KEY',
+    appId: 'YOUR_WINDOWS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
   );
 }

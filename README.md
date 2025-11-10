@@ -111,8 +111,8 @@ lib/
 
 1. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
-   cd assignment
+   git clone https://github.com/ashish6318/dailyPulse.git
+   cd dailyPulse
    ```
 
 2. **Install dependencies**:
@@ -120,21 +120,32 @@ lib/
    flutter pub get
    ```
 
-3. **Configure Firebase**:
+3. **Configure Environment Variables**:
+   - Copy `.env.example` to `.env`:
+     ```powershell
+     Copy-Item .env.example .env
+     ```
+   - Open `.env` and replace placeholders with your actual Firebase credentials
+   - **IMPORTANT**: Never commit `.env` to Git!
+
+4. **Configure Firebase**:
    - Create a Firebase project at [https://console.firebase.google.com/](https://console.firebase.google.com/)
    - Enable **Authentication** (Email/Password provider)
    - Enable **Cloud Firestore**
-   - Add your Firebase configuration files:
+   - Add your Firebase credentials to:
+     - **`.env` file** (for local development)
+     - **`lib/firebase_options.dart`** (replace YOUR_*_KEY placeholders)
+     - **`web/index.html`** (replace YOUR_* placeholders)
+   - Additional platform files:
      - **Android**: Download `google-services.json` and place in `android/app/`
      - **iOS**: Download `GoogleService-Info.plist` and place in `ios/Runner/`
-     - **Web**: Add Firebase config to `web/index.html`
 
-4. **Generate Hive adapters** (if not already present):
+5. **Generate Hive adapters** (if not already present):
    ```powershell
    flutter pub run build_runner build --delete-conflicting-outputs
    ```
 
-5. **Run the app**:
+6. **Run the app**:
    ```powershell
    flutter run
    ```
